@@ -1,0 +1,15 @@
+.sidebar-btn {
+  background-color: #23232e;
+  border: 1px #4b4b6a solid;
+  border-radius: 15px;
+}
+.sidebarBtn-svg {
+  background: url("../../assets/sidebarBtn.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "../components/navbar/Navbar";
 
 const Main = () => {
   return (
     <>
-      <p className="bg-cyan-300">awdawd</p>
+      <Navbar />
     </>
   );
 };
