@@ -1,1 +1,3 @@
-
+.bg-linear {
+  background: linear-gradient(to left, #402ade, #2868de);
+}

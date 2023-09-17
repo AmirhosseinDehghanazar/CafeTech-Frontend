@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Peyda";
+  src: url("../font/PeydaWeb-Regular.eot");
+  src: url("../font/ChelaOne-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/PeydaWeb-Regular.woff2") format("woff2"),
+    url("../font/PeydaWeb-Regular.woff") format("woff"),
+    url("../font/Peyda-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  font-family: "Peyda";
+}
