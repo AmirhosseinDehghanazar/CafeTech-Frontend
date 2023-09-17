@@ -41,3 +41,9 @@
   background: linear-gradient(to top, #352995, transparent);
   opacity: 0.85;
 }
+/* header second text: about cafeTech */
+.header-sec-text {
+  background: -webkit-linear-gradient(45deg, #808080, #f0f0f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
