@@ -1,0 +1,43 @@
+/* fire emoji  */
+.bg-fire {
+  width: 52px;
+  height: 52px;
+  background: url("../../../assets/header/fire.png");
+  top: -40px;
+  right: -40px;
+}
+.bg-orange-spread {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  filter: blur(20px);
+}
+
+/* those 2 star on left of text */
+.bg-sparkle {
+  width: 61px;
+  height: 61px;
+  background: url("../../../assets/header/sparkle.png");
+  left: -40px;
+  bottom: -40px;
+}
+/* changing sparkle position from bottom to top */
+@media screen and (min-width: 976px) {
+  .bg-sparkle {
+    top: -40px;
+  }
+}
+
+/* style to add for every div with bg-img */
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* made span to able to add bg-color for text not the div */
+.header-big-text > span {
+  font-weight: 700;
+  line-height: 1.5;
+  background: linear-gradient(to top, #352995, transparent);
+  opacity: 0.85;
+}
