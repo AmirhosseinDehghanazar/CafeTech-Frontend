@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex text-white justify-between items-center lg:flex-row-reverse">
+    <div className="flex text-white justify-between items-center lg:flex-row-reverse mb-10">
       {/* sidebar btn */}
       <div className="sidebar-btn lg:hidden">
         <div className="sidebarBtn-svg bg-img" />
@@ -26,24 +26,22 @@ const Navbar = () => {
         <p className="text-lg font-semibold">حساب کاربری</p>
       </a>
 
-      <div className="flex flex-row-reverse navs_logo_container justify-center">
-        {" "}
-        {/* navs */}
-        <div className="hidden navs lg:flex items-center justify-around">
-          {linksData.map((link, i) => (
-            <NavLink
-              key={i}
-              {...link}
-              value={value}
-              valueHandler={valueHandler}
-            />
-          ))}
-        </div>
-        {/* cafeTech */}
-        <div className="flex items-end lg:items-center lg:relative rela gap-2 lg:flex-row-reverse">
-          <p className="font-bold text-2xl">کافه تک</p>
-          <div className="cafe-svg lg:absolute" />
-        </div>
+      {/* navs */}
+      <div className="hidden navs lg:flex items-center justify-around">
+        {linksData.map((link, i) => (
+          <NavLink
+            key={i}
+            {...link}
+            value={value}
+            valueHandler={valueHandler}
+          />
+        ))}
+      </div>
+
+      {/* cafeTech */}
+      <div className="flex items-end lg:items-center lg:relative rela gap-2 lg:flex-row-reverse">
+        <p className="font-bold text-2xl">کافه تک</p>
+        <div className="cafe-svg lg:absolute" />
       </div>
     </div>
   );

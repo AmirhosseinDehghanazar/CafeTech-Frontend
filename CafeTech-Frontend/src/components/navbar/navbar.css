@@ -49,24 +49,3 @@
 .inactive {
   color: #8e8e93;
 }
-
-.navs_logo_container {
-  transition: gap 0.2s;
-  gap: 3vw;
-}
-
-@media screen and (min-width: 1300px) {
-  .navs_logo_container {
-    gap: 6vw;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .navs_logo_container {
-    gap: 9vw;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .navs_logo_container {
-    gap: 12vw;
-  }
-}
