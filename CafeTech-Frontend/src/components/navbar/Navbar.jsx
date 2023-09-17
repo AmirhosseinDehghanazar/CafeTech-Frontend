@@ -27,7 +27,7 @@ const Navbar = () => {
       </a>
 
       {/* navs */}
-      <div className="hidden navs md:flex items-center justify-around">
+      <div className="hidden navs lg:flex items-center justify-around">
         {linksData.map((link, i) => (
           <NavLink
             key={i}
