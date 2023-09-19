@@ -35,14 +35,6 @@
   height: 24px;
 }
 
-/* those two emoji have orange color spreaded around them */
-.bg-orange-spread {
-  width: 15px;
-  height: 15px;
-  background-color: orange;
-  filter: blur(20px);
-}
-
 /* made span to able to add bg-color for text not the div */
 .header-big-text > span {
   font-weight: 700;

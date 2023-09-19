@@ -8,6 +8,22 @@ const Segment = () => {
   const [slidesToShow, setSlidesToShow] = useState(1);
 
   useEffect(() => {
+    window.addEventListener("load", () => {
+      if (window.innerWidth < 801) {
+        setSlidesToShow(1);
+      } else if (window.innerWidth < 1065) {
+        setSlidesToShow(2);
+      } else if (window.innerWidth < 1343) {
+        setSlidesToShow(3);
+      } else if (window.innerWidth < 1543) {
+        setSlidesToShow(4);
+      } else if (window.innerWidth < 1724) {
+        setSlidesToShow(5);
+      } else if (window.innerWidth > 1724) {
+        setSlidesToShow(6);
+      }
+    });
+
     window.addEventListener("resize", () => {
       if (window.innerWidth < 801) {
         setSlidesToShow(1);

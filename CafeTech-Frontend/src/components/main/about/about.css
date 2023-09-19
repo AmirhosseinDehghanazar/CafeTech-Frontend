@@ -1,0 +1,23 @@
+.about_bg-think-face {
+  background: url("../../../assets/about/Thinking-face.png");
+  width: 30px;
+  height: 30px;
+  filter: drop-shadow(0 0 10px rgb(179, 138, 64, 0.6));
+}
+.about_bg-arrow {
+  background: url("../../../assets/about/arrow.svg");
+  width: 18px;
+  height: 18px;
+}
+.about_bg-event {
+  background-image: linear-gradient(23deg, #333345, rga(51, 51, 69, 0.8));
+}
+
+.dvider {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, #787894, transparent);
+}
+.about_video {
+  width: max(300px, 55%);
+}
