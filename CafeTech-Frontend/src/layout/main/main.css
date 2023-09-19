@@ -1,0 +1,30 @@
+.bg-laptop {
+  background: url("../../assets/leftover/laptop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 39px;
+  height: 39px;
+}
+
+.bg-trophy {
+  background: url("../../assets/leftover/trophy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 53px;
+  height: 53px;
+}
+
+.bg-yaro {
+  background: url("../../assets/leftover/maltop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 54px;
+  height: 54px;
+}
+
+.bg-filter {
+  filter: grayscale() drop-shadow(0 0 18px white);
+}

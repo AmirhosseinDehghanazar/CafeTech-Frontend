@@ -1,4 +1,3 @@
-import React from "react";
 import "./header.css";
 
 const Header = () => {
@@ -6,18 +5,14 @@ const Header = () => {
     <div className="flex flex-col justify-center items-center">
       {/* big text */}
 
-      <div className=" text-center text-white mb-12 md:mt-20 mb-12">
+      <div className=" text-center text-white mb-12 md:mt-20">
         <div className="text-6xl header-big-text">
           <span className="relative">
             ما اینجاییم تا قدمی فراتر از {"{کد}"} برداریم
             {/* fire */}
-            <div className="absolute bg-fire bg-img rounded-full">
-              <div className="bg-orange-spread flex mx-auto mt-6"></div>
-            </div>
+            <div className="absolute bg-fire bg-img rounded-full" />
             {/* sparks */}
-            <div className="absolute bg-sparkle bg-img">
-              <div className="bg-orange-spread flex mx-auto mt-6"></div>
-            </div>
+            <div className="absolute bg-sparkle bg-img" />
           </span>
         </div>
       </div>

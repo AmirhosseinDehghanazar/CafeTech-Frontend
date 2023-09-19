@@ -5,6 +5,7 @@
   background: url("../../../assets/header/fire.png");
   top: -40px;
   right: -40px;
+  filter: drop-shadow(0 0 18px rgb(179, 138, 64));
 }
 /* those 2 star on left of text */
 .bg-sparkle {
@@ -13,6 +14,7 @@
   background: url("../../../assets/header/sparkle.png");
   left: -40px;
   bottom: -40px;
+  filter: drop-shadow(0 0 18px rgb(179, 138, 64));
 }
 /* changing sparkle position from bottom to top */
 @media screen and (min-width: 976px) {
