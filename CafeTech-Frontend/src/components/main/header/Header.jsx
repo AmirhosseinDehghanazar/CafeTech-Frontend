@@ -2,7 +2,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="flex flex-col justify-center items-center  mx-5 md:mx-10 lg:mx-16 xl:mx-20 mt-6 ">
+    <div className="flex flex-col justify-center items-center mt-6 mb-20 ">
       {/* big text */}
 
       <div className=" text-center text-white mb-12 md:mt-20">

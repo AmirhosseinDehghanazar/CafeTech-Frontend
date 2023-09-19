@@ -19,7 +19,7 @@
   height: 39px;
   background: url("../../assets/leftover/laptop.png");
   background-size: cover;
-  top: 5%;
+  top: 40px;
   left: -15px;
 }
 /* trophy emoji */
@@ -28,8 +28,8 @@
   height: 53px;
   background: url("../../assets/leftover/trophy.png");
   background-size: cover;
-  right: 8%;
   top: 490px;
+  right: 8%;
 }
 /* yaro emoji */
 .bg-yaro {
@@ -37,8 +37,8 @@
   height: 54px;
   background: url("../../assets/leftover/maltop.png");
   background-size: cover;
+  top: 740px;
   right: 80%;
-  top: 100%;
 }
 
 .bg-filter {
@@ -48,23 +48,28 @@
 }
 
 /* changing background images size and position bas on viewpoint */
+@media screen and (min-width: 674px) {
+  .bg-yaro {
+    top: 600px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .bg-web {
     top: -10%;
   }
 
   .bg-laptop {
+    top: 100px;
     left: 48%;
-    top: 20%;
   }
 
   .bg-trophy {
-    top: 80%;
+    top: 400px;
     right: 88%;
   }
 
   .bg-yaro {
+    top: 360px;
     right: 10%;
-    top: 60%;
   }
 }

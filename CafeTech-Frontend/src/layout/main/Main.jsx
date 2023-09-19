@@ -2,13 +2,15 @@ import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/main/header/Header";
 import "./main.css";
+import Segment from "../../components/main/segment/Segment";
 
 const Main = () => {
   return (
     <>
-      <div className="relative main">
+      <div className="relative main px-28">
         <Navbar />
         <Header />
+        <Segment />
 
         {/* background images */}
         {/* web */}

@@ -1,0 +1,24 @@
+.segment_bg-star {
+  background: url("../../../assets/segment/star.svg");
+  background-size: contain;
+}
+.segment_bg-guest {
+  background: url("../../../assets/segment/guest.svg");
+  background-size: contain;
+}
+.segment_bg-tex {
+  background: url("../../../assets/segment/tex.svg");
+  background-size: contain;
+}
+.segment_bg-web {
+  background: url("../../../assets/segment/web.svg");
+  background-size: contain;
+}
+.segment_bg-event-online {
+  background: url("../../../assets/segment/event-online.svg");
+  background-size: contain;
+}
+.segment_bg-event {
+  background: url("../../../assets/segment/event.svg");
+  background-size: contain;
+}
