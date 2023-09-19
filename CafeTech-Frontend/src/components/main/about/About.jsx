@@ -13,7 +13,7 @@ const About = () => {
     <div className="mb-10 flex flex-col justify-center items-center gap-10 lg:flex-row">
       {/* event */}
       {/* -> this border needs to hide in lg & ++ <-*/}
-      <div className="lg:border-0 lg:bg-transparent max-w-[716px] lg:flex lg:flex-col-reverse lg:gap-6">
+      <div className="lg:border-0 border border-[#4B4B6A] p-3 lg:p-0 bg-[#23232E] rounded-[25px] lg:bg-transparent max-w-[716px] lg:flex lg:flex-col-reverse lg:gap-6">
         {/* about cafeTech */}
         <div className="lg:border lg:border-[#4B4B6A] lg:p-6 lg:rounded-[25px] lg:bg-[#23232E]">
           <div className="flex items-center gap-2 mb-6">
