@@ -1,30 +1,44 @@
+.main {
+  overflow-x: hidden;
+}
+
+/* web */
+.bg-web {
+  background: url("../../assets/leftover/web-sm.png");
+  width: 400px;
+  height: 600px;
+  right: -15px;
+  top: -10px;
+}
+/* laptop emoji */
 .bg-laptop {
-  background: url("../../assets/leftover/laptop.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   width: 39px;
   height: 39px;
-}
-
-.bg-trophy {
-  background: url("../../assets/leftover/trophy.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../../assets/leftover/laptop.png");
   background-size: cover;
+  top: 5%;
+  left: -15px;
+}
+/* trophy emoji */
+.bg-trophy {
   width: 53px;
   height: 53px;
-}
-
-.bg-yaro {
-  background: url("../../assets/leftover/maltop.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../../assets/leftover/trophy.png");
   background-size: cover;
+  right: 8%;
+  top: 490px;
+}
+/* yaro emoji */
+.bg-yaro {
   width: 54px;
   height: 54px;
+  background: url("../../assets/leftover/maltop.png");
+  background-size: cover;
+  left: 25px;
+  top: 730px;
 }
 
 .bg-filter {
-  filter: grayscale() drop-shadow(0 0 18px white);
+  opacity: 0.75;
+  filter: grayscale(100%) drop-shadow(0 0 10px rgba(228, 228, 228, 0.6));
 }

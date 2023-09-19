@@ -1,3 +1,9 @@
 .bg-linear {
   background: linear-gradient(to left, #402ade, #2868de);
 }
+
+/* style to add for every div with bg-img */
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+}

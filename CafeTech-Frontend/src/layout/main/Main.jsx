@@ -6,18 +6,19 @@ import "./main.css";
 const Main = () => {
   return (
     <>
-      <div className="relative mx-5 md:mx-10 lg:mx-16 xl:mx-20 mt-6">
+      <div className="relative main px-5 md:px-10 lg:px-16 xl:px-20 pt-6">
         <Navbar />
         <Header />
 
+        <div className="-z-50 bg-web bg-img absolute" />
         {/* laptop */}
-        <div className="bg-laptop absolute bg-filter" />
+        <div className="-z-50 bg-laptop bg-img absolute bg-filter" />
 
         {/* trophy */}
-        <div className="bg-trophy absolute bg-filter" />
+        <div className="-z-50 bg-trophy bg-img absolute bg-filter" />
 
         {/* yaro */}
-        <div className="bg-yaro absolute bg-filter" />
+        <div className="-z-50 bg-yaro bg-img absolute bg-filter" />
       </div>
     </>
   );

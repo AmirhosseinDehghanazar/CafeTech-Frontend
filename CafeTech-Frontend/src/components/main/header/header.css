@@ -43,12 +43,6 @@
   filter: blur(20px);
 }
 
-/* style to add for every div with bg-img */
-.bg-img {
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 /* made span to able to add bg-color for text not the div */
 .header-big-text > span {
   font-weight: 700;

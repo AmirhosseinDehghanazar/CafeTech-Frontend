@@ -19,7 +19,7 @@ const Header = () => {
 
       {/* text */}
       <div className="mb-10">
-        <p className="text-xl text-center header-sec-text max-w-xl">
+        <p className="text-xl text-center header-sec-text max-w-[290px] md:max-w-xl">
           کافه تک، رسانه تخصصی و کامیونیتی برنامه نویسان و علاقه‌مندان به
           تکنولوژی و برگزار کننده رویدادهای حضوری و آنلاین جذاب.
         </p>
@@ -31,7 +31,7 @@ const Header = () => {
           <p className="text-white">مشاهده رویداد ها</p>
           <div className="bg-arrow-white bg-img" />
         </button>
-        <button className=" flex justify-between border w-full lg:w-auto border-secondary items-center gap-3 px-7 py-4 rounded-2xl">
+        <button className="flex justify-between border w-full lg:w-auto border-secondary items-center gap-3 px-7 py-4 rounded-2xl">
           <p className="text-secondary whitespace-nowrap">همکاری با ما</p>
           <div className="bg-arrow-dark bg-img" />
         </button>
