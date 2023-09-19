@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import { segmentData } from "../header/segData";
+import { segmentData } from "./segData";
 import "./segment.css";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -17,16 +17,18 @@ const Segment = () => {
         setSlidesToShow(3);
       } else if (window.innerWidth < 1543) {
         setSlidesToShow(4);
-      } else if (window.innerWidth < 1524) {
+      } else if (window.innerWidth < 1724) {
         setSlidesToShow(5);
+      } else if (window.innerWidth > 1724) {
+        setSlidesToShow(6);
       }
     });
   }, [window.innerWidth]);
 
   const settings = {
     arrows: false,
-    swipe: window.innerWidth < 1524 ? true : false,
-    dots: window.innerWidth < 1524 ? true : false,
+    swipe: window.innerWidth < 1724 ? true : false,
+    dots: window.innerWidth < 1724 ? true : false,
     speed: 500,
     slidesToShow,
     slidesToScroll: 1,

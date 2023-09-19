@@ -7,7 +7,7 @@ import Segment from "../../components/main/segment/Segment";
 const Main = () => {
   return (
     <>
-      <div className="relative main px-28">
+      <div className="relative main px-6 md:px-10 lg:px-14 xl:px-20">
         <Navbar />
         <Header />
         <Segment />
