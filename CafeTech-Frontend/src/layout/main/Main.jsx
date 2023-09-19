@@ -10,6 +10,7 @@ const Main = () => {
         <Navbar />
         <Header />
 
+        {/* background images */}
         {/* web */}
         <div className="-z-50 bg-web absolute" />
         {/* laptop */}
@@ -20,6 +21,7 @@ const Main = () => {
 
         {/* yaro */}
         <div className="-z-50 bg-yaro bg-img absolute bg-filter" />
+        {/* background images end here */}
       </div>
     </>
   );
