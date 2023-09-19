@@ -7,3 +7,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.bg-blue-text > span {
+  color: #efeefc;
+  background: linear-gradient(to top, #352995, transparent, transparent);
+  line-height: 1.5;
+  opacity: 0.9;
+}

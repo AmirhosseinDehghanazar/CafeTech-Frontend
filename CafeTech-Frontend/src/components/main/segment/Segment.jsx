@@ -34,7 +34,18 @@ const Segment = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="text-center ">
+    <div className="text-center mb-20">
+      {/* text */}
+      <div className="mb-12 flex flex-col gap-4 justify-center items-center ">
+        <p className="bg-blue-text font-bold text-[32px] md:text-[44px] ">
+          <span> &#123; ویژگی های کافه تک &#125;</span>
+        </p>
+        <p className="hidden max-w-lg md:block text-lg text-[#B6B6B8]">
+          ما در کافه تک با دورهمی‌هایی که برگزار می‌کنیم به برنامه نویس‌ها کمک
+          می‌کنیم تا در فضایی دوستانه به انتقال تجربه و ارتباط سازی بپردازند.
+        </p>
+      </div>
+      {/* slide */}
       <Slider swe {...settings}>
         {segmentData.map((seg, i) => (
           <div
