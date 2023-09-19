@@ -4,8 +4,12 @@ import NavLink from "./NavLink";
 import { linksData } from "./linksData";
 
 const Navbar = () => {
+  // manages which nav is active
   const [value, setValue] = useState(0);
+  // this state manages sidebar to be open or close
+  const [sidebar, setSidebar] = useState(false);
 
+  // func to handle sidebar gave it to sidebar btn
   const valueHandler = (index) => {
     setValue(index);
   };
@@ -13,9 +17,12 @@ const Navbar = () => {
   return (
     <div className="flex text-white justify-between items-center lg:flex-row-reverse mb-10">
       {/* sidebar btn */}
-      <div className="sidebar-btn lg:hidden">
+      <button
+        onClick={() => setSidebar(!sidebar)}
+        className="sidebar-btn lg:hidden"
+      >
         <div className="sidebarBtn-svg bg-img" />
-      </div>
+      </button>
 
       {/* account */}
       <a
@@ -39,10 +46,13 @@ const Navbar = () => {
       </div>
 
       {/* cafeTech */}
-      <div className="flex items-end lg:items-center lg:relative rela gap-2 lg:flex-row-reverse">
+      <a
+        href="/"
+        className="flex items-end lg:items-center lg:relative rela gap-2 lg:flex-row-reverse"
+      >
         <p className="font-bold text-2xl">کافه تک</p>
         <div className="cafe-svg lg:absolute" />
-      </div>
+      </a>
     </div>
   );
 };
