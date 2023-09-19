@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex text-white justify-between items-center lg:flex-row-reverse mb-10">
+    <div className="flex text-white mx-5 md:mx-10 lg:mx-16 xl:mx-20 mt-6 justify-between items-center lg:flex-row-reverse mb-10">
       {/* sidebar btn */}
       <button
         onClick={() => setSidebar(!sidebar)}

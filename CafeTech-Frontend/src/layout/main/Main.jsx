@@ -6,11 +6,12 @@ import "./main.css";
 const Main = () => {
   return (
     <>
-      <div className="relative main px-5 md:px-10 lg:px-16 xl:px-20 pt-6">
+      <div className="relative main">
         <Navbar />
         <Header />
 
-        <div className="-z-50 bg-web bg-img absolute" />
+        {/* web */}
+        <div className="-z-50 bg-web absolute" />
         {/* laptop */}
         <div className="-z-50 bg-laptop bg-img absolute bg-filter" />
 
