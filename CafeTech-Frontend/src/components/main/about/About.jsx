@@ -51,16 +51,26 @@ const About = () => {
             <p className="text-lg text-white/90">{currentEvent.title}</p>
             <div className="text-secondary flex flex-col lg:flex-row lg:gap-10 text-[16px]">
               <div className="flex gap-10">
+                {/* event date */}
                 <div>
                   زمان:{" "}
+                  <CustomNumeralNumericFormat
+                    value={format(currentEvent.date, "dd")}
+                  />
+                  {format(currentEvent.date, "MMMM")}
+                </div>
+                {/* event time */}
+                <p>
+                  ساعت:{" "}
                   <CustomNumeralNumericFormat value={currentEvent.start} /> الی{" "}
                   <CustomNumeralNumericFormat value={currentEvent.end} />
-                </div>
-                <p>ساعت: {format(currentEvent.date, "hh:mm")}</p>
+                </p>
               </div>
+              {/* event location */}
               <p>لوکیشن: {currentEvent.location}</p>
             </div>
           </div>
+          {/* current event ends here */}
 
           {/* buttons */}
           <div className="flex flex-col max-w-sm lg:max-w-md w-full  lg:flex-row-reverse gap-6 items-center justify-center text-center">

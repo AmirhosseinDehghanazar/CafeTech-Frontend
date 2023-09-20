@@ -19,3 +19,10 @@
   background: linear-gradient(to top, #352995, transparent);
   opacity: 0.85;
 }
+
+.bg-clock {
+  background: url("./assets/event/clock.svg");
+}
+.bg-location {
+  background: url("./assets/event/location.svg");
+}
