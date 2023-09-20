@@ -6,7 +6,7 @@ const Header = () => {
       {/* big text */}
 
       <div className=" text-center text-white mb-12 md:mt-20">
-        <div className="text-6xl header-big-text">
+        <div className="text-6xl header-big-text bg-text-blue bg-blue-text-full">
           <span className="relative">
             ما اینجاییم تا قدمی فراتر از {"{کد}"} برداریم
             {/* fire */}

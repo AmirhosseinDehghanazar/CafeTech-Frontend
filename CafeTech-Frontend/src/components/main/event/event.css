@@ -1,0 +1,10 @@
+.event_event-parent {
+  background-color: #262b77;
+}
+.event_eventdata {
+  background: linear-gradient(
+    to top,
+    rgb(35, 35, 46, 0.7),
+    rgb(35, 35, 46, 0.9)
+  );
+}

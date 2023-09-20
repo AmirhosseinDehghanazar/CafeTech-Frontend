@@ -14,3 +14,8 @@
   line-height: 1.5;
   opacity: 0.9;
 }
+
+.bg-blue-text-full > span {
+  background: linear-gradient(to top, #352995, transparent);
+  opacity: 0.85;
+}

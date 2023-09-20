@@ -4,6 +4,7 @@ import Header from "../../components/main/header/Header";
 import "./main.css";
 import Segment from "../../components/main/segment/Segment";
 import About from "../../components/main/about/About";
+import Event from "../../components/main/event/Event";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         <Header />
         <About />
         <Segment />
+        <Event />
         {/* background images */}
         {/* web */}
         <div className="-z-50 bg-web absolute" />

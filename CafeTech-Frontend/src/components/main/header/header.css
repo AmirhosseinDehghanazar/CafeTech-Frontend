@@ -39,8 +39,6 @@
 .header-big-text > span {
   font-weight: 700;
   line-height: 1.5;
-  background: linear-gradient(to top, #352995, transparent);
-  opacity: 0.85;
 }
 /* header second text: about cafeTech */
 .header-sec-text {
