@@ -42,6 +42,7 @@
 }
 
 .bg-filter {
+  animation: float 7s ease infinite;
   transition: all 0.2s;
   opacity: 0.75;
   filter: grayscale(100%) drop-shadow(0 0 10px rgba(228, 228, 228, 0.6));
@@ -71,5 +72,15 @@
   .bg-yaro {
     top: 360px;
     right: 10%;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
   }
 }
