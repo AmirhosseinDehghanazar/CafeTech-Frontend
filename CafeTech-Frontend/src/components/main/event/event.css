@@ -1,5 +1,6 @@
 .event_event-parent {
   background-color: #262b77;
+  direction: rtl;
 }
 .event_eventdata {
   opacity: 1;
