@@ -28,7 +28,7 @@ const Comment = () => {
   ];
 
   return (
-    <div className="mb-20">
+    <div className="mb-20 comment-parent lg:py-10  -mx-6 md:-mx-10 lg:-mx-14 xl:-mx-20">
       {/* texts */}
       <div className="text-center max-w-[280px] md:max-w-[376px] mx-auto mb-10">
         <p className="bg-blue-text mb-3 text-[32px] md:text-[44px] font-bold text-white">
@@ -41,12 +41,15 @@ const Comment = () => {
       </div>
 
       {/* slide */}
-      <div className="max-w-[900px] mx-auto">
-        <Slider className="text-center">
+      <div className="max-w-[992px] mx-auto">
+        <Slider
+          dots={window.innerWidth > 1024 ? false : true}
+          className="text-center mx-7"
+        >
           {comments.map((c, i) => (
             <div
               key={i}
-              className="comment-parent text-start rounded-2xl overflow-hidden border w-full max-w-[852px] border-[#4B4B6A] bg-[#23232E] px-4 py-6 "
+              className="relative comment text-start rounded-2xl overflow-y-hidden-hidden border w-[full] max-w-[852px] border-[#4B4B6A] bg-[#23232E] px-4 py-6 "
             >
               {/* comment profile */}
               <div className="flex gap-5 mb-6 items-center justify-start">
@@ -63,6 +66,7 @@ const Comment = () => {
                   </p>
                 </div>
               </div>
+
               {/* comment */}
               <p className="text-[#B3B3D0] text-sm md:text-lg">
                 {c.description}

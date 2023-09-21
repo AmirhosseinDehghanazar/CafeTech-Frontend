@@ -1,5 +1,14 @@
 .comment-parent {
+  background-image: url("../../../assets/comment/comment-background.png");
+  background-size: contain;
+}
+
+.comment {
   direction: rtl;
+  background-image: url("../../../assets/comment/quote.svg");
+  background-repeat: no-repeat;
+  background-position: 0 80%;
+  background-size: auto;
 }
 .comment-picture {
   filter: drop-shadow(0 0 15px rgb(168, 53, 53, 0.7));
