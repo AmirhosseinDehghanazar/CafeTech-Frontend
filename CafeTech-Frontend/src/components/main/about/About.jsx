@@ -10,7 +10,7 @@ const About = () => {
   };
 
   return (
-    <div className="mb-10 flex flex-col justify-center items-center gap-10 lg:flex-row">
+    <div className="mb-10 flex flex-col-reverse justify-center items-center gap-10 lg:flex-row">
       {/* event */}
       {/* -> this border needs to hide in lg & ++ <-*/}
       <div className="lg:border-0 border border-[#4B4B6A] p-3 lg:p-0 bg-[#23232E] rounded-[25px] lg:bg-transparent max-w-[716px] lg:flex lg:flex-col-reverse lg:gap-6">

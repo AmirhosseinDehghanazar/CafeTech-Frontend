@@ -1,0 +1,6 @@
+.comment-parent {
+  direction: rtl;
+}
+.comment-picture {
+  filter: drop-shadow(0 0 15px rgb(168, 53, 53, 0.7));
+}

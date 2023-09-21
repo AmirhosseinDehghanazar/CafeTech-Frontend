@@ -19,7 +19,7 @@ const Header = () => {
 
       {/* text */}
       <div className="mb-10">
-        <p className="text-xl text-center header-sec-text max-w-[290px] md:max-w-xl">
+        <p className="text-xl text-center text-linear-dark max-w-[290px] md:max-w-xl">
           کافه تک، رسانه تخصصی و کامیونیتی برنامه نویسان و علاقه‌مندان به
           تکنولوژی و برگزار کننده رویدادهای حضوری و آنلاین جذاب.
         </p>

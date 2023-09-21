@@ -62,11 +62,11 @@ const Segment = () => {
         </p>
       </div>
       {/* slide */}
-      <Slider swe {...settings}>
+      <Slider {...settings}>
         {segmentData.map((seg, i) => (
           <div
             key={i}
-            className="w-[268px] h-[268px] max-w-[268px] max-h-[268px]  p-4 border border-[#4B4B6A] rounded-[25px] bg-[#23232E] text-center"
+            className="mb-6 w-[268px] h-[268px] max-w-[268px] max-h-[268px]  p-4 border border-[#4B4B6A] rounded-[25px] bg-[#23232E] text-center"
           >
             <div
               className={`${seg.emojiClass} bg-img mx-auto my-5 w-[70px] h-[70px]`}

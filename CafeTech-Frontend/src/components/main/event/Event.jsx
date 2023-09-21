@@ -46,8 +46,11 @@ const Event = () => {
         dots
         className="text-center "
       >
-        {eventsData.map((e) => (
-          <div className="relative event_event-parent rounded-[25px] max-w-[95%] h-[368px] mb-32">
+        {eventsData.map((e, i) => (
+          <div
+            key={i}
+            className="relative text-start event_event-parent rounded-[25px] max-w-[95%] h-[368px] mb-32"
+          >
             <div>
               <p></p>
             </div>

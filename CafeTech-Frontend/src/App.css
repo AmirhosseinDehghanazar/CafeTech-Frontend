@@ -26,3 +26,10 @@
 .bg-location {
   background: url("./assets/event/location.svg");
 }
+
+/* making text go transparent */
+.text-linear-dark {
+  background: linear-gradient(45deg, #929292, #f0f0f0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

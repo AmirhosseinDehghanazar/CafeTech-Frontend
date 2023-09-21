@@ -5,6 +5,7 @@ import "./main.css";
 import Segment from "../../components/main/segment/Segment";
 import About from "../../components/main/about/About";
 import Event from "../../components/main/event/Event";
+import Comment from "../../components/main/comment/Comment";
 
 const Main = () => {
   return (
@@ -15,6 +16,9 @@ const Main = () => {
         <About />
         <Segment />
         <Event />
+        {/* <Guests /> */}
+        <Comment />
+
         {/* background images */}
         {/* web */}
         <div className="-z-50 bg-web absolute" />

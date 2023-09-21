@@ -40,9 +40,3 @@
   font-weight: 700;
   line-height: 1.5;
 }
-/* header second text: about cafeTech */
-.header-sec-text {
-  background: linear-gradient(45deg, #929292, #f0f0f0);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
