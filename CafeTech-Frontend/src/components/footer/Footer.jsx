@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer";
 import "./footer.css";
 
 const Footer = () => {

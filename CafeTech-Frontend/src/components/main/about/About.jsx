@@ -2,8 +2,14 @@ import { format } from "date-fns-jalali";
 import "./about.css";
 import { currentEvent } from "./currentEvent";
 import { CustomNumeralNumericFormat } from "../../numeric";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const About = () => {
+  const [ref2, inView2] = useInView({
+    triggerOnce: true,
+  });
+
   const eventImg = {
     backgroundImage: `linear-gradient(90deg ,rgb(51, 51, 69, 0.92),  #333345), url(${currentEvent.img})`,
     borderRadius: "15px",
@@ -12,10 +18,16 @@ const About = () => {
   return (
     <div className="mb-10 md:mb-36 flex flex-col-reverse justify-center items-center gap-10 lg:flex-row">
       {/* event */}
-      {/* -> this border needs to hide in lg & ++ <-*/}
-      <div className="lg:border-0 border border-[#4B4B6A] p-3 lg:p-0 bg-[#23232E] rounded-[25px] lg:bg-transparent max-w-[716px] lg:flex lg:flex-col-reverse lg:gap-6">
+      <div
+        ref={ref2}
+        className={`${
+          inView2 && "animation-transX"
+        } lg:border-0 border border-[#4B4B6A] p-3 lg:p-0 bg-[#23232E] rounded-[25px] lg:bg-transparent max-w-[716px] lg:flex lg:flex-col-reverse lg:gap-6`}
+      >
         {/* about cafeTech */}
-        <div className="lg:border lg:border-[#4B4B6A] lg:p-6 lg:rounded-[25px] lg:bg-[#23232E]">
+        <div
+          className={` lg:border lg:border-[#4B4B6A] lg:p-6 lg:rounded-[25px] lg:bg-[#23232E]`}
+        >
           <div className="flex items-center gap-2 mb-6">
             <p className="text-white text-[22px] lg:text-[34px] font-bol">
               درباره کافه تک بیشتر بدانید

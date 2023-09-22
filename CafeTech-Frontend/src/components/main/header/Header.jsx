@@ -1,8 +1,17 @@
+import { useInView } from "react-intersection-observer";
 import "./header.css";
 
 const Header = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
   return (
-    <div className="flex flex-col justify-center items-center mt-6 mb-20  lg:mb-32">
+    <div
+      ref={ref}
+      className={`${
+        inView && "animation-opacity"
+      } flex flex-col justify-center items-center mt-6 mb-20  lg:mb-32`}
+    >
       {/* big text */}
 
       <div className=" text-center text-white mb-12 md:mt-20">
