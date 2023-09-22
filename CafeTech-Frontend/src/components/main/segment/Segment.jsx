@@ -50,7 +50,7 @@ const Segment = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="text-center mb-20">
+    <div className="text-center mb-32">
       {/* text */}
       <div className="mb-12 flex flex-col gap-4 justify-center items-center ">
         <p className="bg-blue-text font-bold text-[32px] md:text-[44px] ">

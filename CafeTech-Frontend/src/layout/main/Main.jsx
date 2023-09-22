@@ -20,6 +20,10 @@ const Main = () => {
         <Comment />
 
         {/* background images */}
+        {/* top gray div for background */}
+        <div className="bg-main-gray" />
+        {/* middle oval div for background */}
+        <div className="bg-main-oval" />
         {/* web */}
         <div className="-z-50 bg-web absolute" />
         {/* laptop */}

@@ -1,7 +1,29 @@
 .main {
   overflow-x: hidden;
 }
-
+/* gray-background on top */
+.bg-main-gray {
+  position: absolute;
+  background-color: #25252a;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 1059px;
+  z-index: -51;
+}
+/* oval in middle */
+.bg-main-oval {
+  position: absolute;
+  background-image: url("../../assets/oval.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 854px;
+  right: 0;
+  width: 100%;
+  height: 1274px;
+  z-index: -50;
+}
 /* web */
 .bg-web {
   transition: all 0.2s;
@@ -55,8 +77,12 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .bg-main-oval {
+    top: 200px;
+    z-index: -52;
+  }
   .bg-web {
-    top: -10%;
+    top: -70px;
   }
 
   .bg-laptop {
