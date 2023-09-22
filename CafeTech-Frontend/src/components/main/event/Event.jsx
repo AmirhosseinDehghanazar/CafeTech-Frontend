@@ -29,7 +29,7 @@ const Event = () => {
   return (
     <div className="mb-20">
       {/* top texts */}
-      <div className="flex flex-col md:flex-row mb-6 gap-2 md:gap-0 items-center justify-center text-center md:justify-around lg:justify-between">
+      <div className="flex flex-col md:flex-row mb-6 gap-2 md:gap-0 items-center justify-center text-center md:justify-around lg:justify-between lg:mx-8">
         <div className="text-[32px] lg:text-[36px] bg-blue-text-full text-white">
           <span> &#123; ایونت های کافه تک &#125;</span>
         </div>
