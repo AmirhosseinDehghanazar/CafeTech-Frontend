@@ -1,11 +1,13 @@
-import React from "react";
-import Navbar from "../../components/navbar/Navbar";
-import Header from "../../components/main/header/Header";
 import "./main.css";
-import Segment from "../../components/main/segment/Segment";
-import About from "../../components/main/about/About";
-import Event from "../../components/main/event/Event";
-import Comment from "../../components/main/comment/Comment";
+import {
+  About,
+  Comment,
+  Event,
+  Footer,
+  Header,
+  Navbar,
+  Segment,
+} from "../../components";
 
 const Main = () => {
   return (
@@ -18,6 +20,7 @@ const Main = () => {
         <Event />
         {/* <Guests /> */}
         <Comment />
+        <Footer />
 
         {/* background images */}
         {/* top gray div for background */}
