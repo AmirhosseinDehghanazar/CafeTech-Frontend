@@ -28,7 +28,7 @@ const Comment = () => {
   ];
 
   return (
-    <div className="mb-20 comment-parent lg:py-10  -mx-6 md:-mx-10 lg:-mx-14 xl:-mx-20">
+    <div className="my-32 comment-parent lg:py-10  -mx-6 md:-mx-10 lg:-mx-14 xl:-mx-20">
       {/* texts */}
       <div className="text-center max-w-[280px] md:max-w-[376px] mx-auto mb-10">
         <p className="bg-blue-text mb-3 text-[32px] md:text-[44px] font-bold text-white">

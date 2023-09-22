@@ -1,6 +1,6 @@
 .comment-parent {
   background-image: url("../../../assets/comment/comment-background.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .comment {
@@ -12,4 +12,11 @@
 }
 .comment-picture {
   filter: drop-shadow(0 0 15px rgb(168, 53, 53, 0.7));
+}
+
+@media screen and (min-width: 1796px) {
+  .comment-parent {
+    background-image: url("../../../assets/comment/comment-background.png");
+    background-size: contain;
+  }
 }
