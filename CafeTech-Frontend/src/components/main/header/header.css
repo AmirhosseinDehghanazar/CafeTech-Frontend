@@ -2,7 +2,7 @@
 .bg-fire {
   width: 52px;
   height: 52px;
-  background: url("../../../assets/header/fire.png");
+  background: url("../../../assets/header/fire.svg");
   top: -40px;
   right: -40px;
   filter: drop-shadow(0 0 18px rgb(179, 138, 64));
@@ -11,7 +11,7 @@
 .bg-sparkle {
   width: 61px;
   height: 61px;
-  background: url("../../../assets/header/sparkle.png");
+  background: url("../../../assets/header/sparkle.svg");
   left: -40px;
   bottom: -40px;
   filter: drop-shadow(0 0 18px rgb(179, 138, 64));
