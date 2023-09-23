@@ -1,3 +1,10 @@
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
 .bg-linear {
   background: linear-gradient(to left, #402ade, #2868de);
 }

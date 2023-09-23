@@ -19,9 +19,9 @@ const Header = () => {
           <span className="relative">
             ما اینجاییم تا قدمی فراتر از {"{کد}"} برداریم
             {/* fire */}
-            <div className="absolute bg-fire bg-img rounded-full" />
+            <div className="absolute bg-fire bg-img rounded-full w-12 h-12 animate-float"></div>
             {/* sparks */}
-            <div className="absolute bg-sparkle bg-img" />
+            <div className="absolute bg-sparkle bg-img animate-float" />
           </span>
         </div>
       </div>
