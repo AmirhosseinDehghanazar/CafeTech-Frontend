@@ -19,12 +19,12 @@
 
 /* getting cafeTech logo */
 .cafe-svg {
-  background: url("../../assets/navbar/Group.png");
+  background: url("../../assets/navbar/Group.svg");
   background-size: contain;
-  top: -26px;
-  right: -40px;
-  width: 32px;
-  height: 55px;
+  top: -3px;
+  right: -50px;
+  width: 45px;
+  height: 35px;
 }
 
 /* face on navbar account button */
