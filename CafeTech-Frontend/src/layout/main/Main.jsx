@@ -8,19 +8,37 @@ import {
   Navbar,
   Segment,
 } from "../../components";
+import { useEffect, useState } from "react";
 
 const Main = () => {
+  // manages which nav is active
+  const [navValue, setNavValue] = useState(0);
+
+  // this useEffect have to manage start value of navValue
+  useEffect(() => {
+    // example
+    /* if( location === "about") {
+          setNavValue(2)
+    } */
+  }, []);
+
+  // func to handle sidebar gave it to sidebar btn
+  // this function needs context api
+  const valueHandler = (index) => {
+    setNavValue(index);
+  };
+
   return (
     <>
       <div className="relative main px-6 md:px-10 lg:px-14 xl:px-20">
-        <Navbar />
+        <Navbar value={navValue} valueHandler={valueHandler} />
         <Header />
         <About />
         <Segment />
         <Event />
         {/* <Guests /> */}
         <Comment />
-        <Footer />
+        <Footer value={navValue} valueHandler={valueHandler} />
 
         {/* background images */}
         {/* top gray div for background */}

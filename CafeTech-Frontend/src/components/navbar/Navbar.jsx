@@ -3,16 +3,9 @@ import "./navbar.css";
 import NavLink from "./NavLink";
 import { linksData } from "./linksData";
 
-const Navbar = () => {
-  // manages which nav is active
-  const [value, setValue] = useState(0);
+const Navbar = ({ value, valueHandler }) => {
   // this state manages sidebar to be open or close
   const [sidebar, setSidebar] = useState(false);
-
-  // func to handle sidebar gave it to sidebar btn
-  const valueHandler = (index) => {
-    setValue(index);
-  };
 
   return (
     <div className="flex text-white mt-6 lg:ms-10 justify-between items-center lg:flex-row-reverse mb-10">
@@ -34,7 +27,7 @@ const Navbar = () => {
       </a>
 
       {/* navs */}
-      <div className="hidden navs lg:flex items-center justify-around">
+      <div className="hidden navs lg:flex items-center justify-around text-[18px] font-semibold">
         {linksData.map((link, i) => (
           <NavLink
             key={i}
