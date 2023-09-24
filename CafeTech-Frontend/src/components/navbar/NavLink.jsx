@@ -1,12 +1,12 @@
 import React from "react";
 
-const NavLink = ({ path, value, index, text, valueHandler }) => {
+const NavLink = ({ path, value, index, text, valueHandler, inactiveColor }) => {
+  const navStyle = {
+    color: index === value ? "white" : inactiveColor,
+  };
+
   return (
-    <a
-      onClick={() => valueHandler(index)}
-      href={path}
-      className={`${index === value ? "text-gray-200" : "inactive"} navlink`}
-    >
+    <a onClick={() => valueHandler(index)} href={path} style={navStyle}>
       {text}
     </a>
   );
