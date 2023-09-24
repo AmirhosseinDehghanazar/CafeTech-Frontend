@@ -9,6 +9,21 @@
 }
 
 body {
-  color: #8b8baa;
   background-color: #131318;
+  /* background-color: #26262b; */
+}
+
+/* changing appearance of dots */
+:root .slick-dots > li {
+  margin: 0 1px;
+}
+:root .slick-dots > li > button::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 999999px;
+  background-color: #4b4b6b;
+}
+:root .slick-active > button::before {
+  background: linear-gradient(to left, #441ede, #1e82de);
 }

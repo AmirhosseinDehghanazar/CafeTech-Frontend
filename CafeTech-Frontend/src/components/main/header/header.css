@@ -1,0 +1,54 @@
+/* fire emoji  */
+.bg-fire {
+  width: 52px;
+  height: 52px;
+  background: url("../../../assets/header/fire.svg");
+  top: -40px;
+  right: -40px;
+  filter: drop-shadow(0 0 18px rgb(179, 138, 64));
+}
+/* those 2 star on left of text */
+.bg-sparkle {
+  width: 61px;
+  height: 61px;
+  background: url("../../../assets/header/sparkle.svg");
+  left: -40px;
+  bottom: -40px;
+  filter: drop-shadow(0 0 18px rgb(179, 138, 64));
+}
+/* changing sparkle position from bottom to top */
+@media screen and (min-width: 976px) {
+  .bg-sparkle {
+    top: -40px;
+  }
+}
+
+/* arrows */
+.bg-arrow-dark {
+  background: url("../../../assets/header/arrow-dark.svg");
+  width: 24px;
+  height: 24px;
+}
+.bg-arrow-white {
+  background: url("../../../assets/header/arrow-white.svg");
+  width: 24px;
+  height: 24px;
+}
+
+.header-big-text > span {
+  font-weight: 700;
+  line-height: 1.5;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}

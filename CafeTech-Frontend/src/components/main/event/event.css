@@ -1,0 +1,12 @@
+.event_event-parent {
+  background-color: #262b77;
+  direction: rtl;
+}
+.event_eventdata {
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 50%);
+  background: linear-gradient(0deg, rgb(35, 35, 46, 0.9), rgb(35, 35, 46, 0.9));
+}

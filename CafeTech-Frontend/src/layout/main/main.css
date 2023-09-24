@@ -1,0 +1,117 @@
+.main {
+  overflow-x: hidden;
+}
+/* gray-background on top */
+.bg-main-gray {
+  position: absolute;
+  background-color: #25252a;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 1059px;
+  z-index: -51;
+}
+/* oval in middle */
+.bg-main-oval {
+  position: absolute;
+  background-image: url("../../assets/oval.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 854px;
+  right: 0;
+  width: 100%;
+  height: 1204px;
+  z-index: -50;
+}
+/* web */
+.bg-web {
+  transition: all 0.2s;
+  background: url("../../assets/leftover/web.svg");
+  background-position: 0% 90%;
+  width: max(400px, 30vw);
+  height: 600px;
+  right: -35px;
+  top: -18px;
+}
+
+/* laptop emoji */
+.bg-laptop {
+  width: 39px;
+  height: 39px;
+  background: url("../../assets/leftover/laptop.png");
+  background-size: cover;
+  top: 40px;
+  left: -15px;
+}
+/* trophy emoji */
+.bg-trophy {
+  width: 53px;
+  height: 53px;
+  background: url("../../assets/leftover/trophy.png");
+  background-size: cover;
+  top: 490px;
+  right: 8%;
+}
+/* yaro emoji */
+.bg-yaro {
+  width: 54px;
+  height: 54px;
+  background: url("../../assets/leftover/maltop.png");
+  background-size: cover;
+  top: 740px;
+  right: 80%;
+}
+
+.bg-filter {
+  animation: float 7s ease infinite;
+  transition: all 0.2s;
+  opacity: 0.75;
+  filter: grayscale(100%) drop-shadow(0 0 10px rgba(228, 228, 228, 0.6));
+}
+
+@media screen and (min-width: 498px) {
+  .bg-main-oval {
+    top: 750px;
+  }
+}
+/* changing background images size and position bas on viewpoint */
+@media screen and (min-width: 674px) {
+  .bg-yaro {
+    top: 600px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bg-main-oval {
+    top: 450px;
+    z-index: -52;
+  }
+  .bg-web {
+    top: -70px;
+  }
+
+  .bg-laptop {
+    top: 100px;
+    left: 48%;
+  }
+
+  .bg-trophy {
+    top: 400px;
+    right: 88%;
+  }
+
+  .bg-yaro {
+    top: 360px;
+    right: 10%;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}

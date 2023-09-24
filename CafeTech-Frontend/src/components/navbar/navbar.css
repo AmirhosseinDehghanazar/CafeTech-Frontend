@@ -1,0 +1,45 @@
+/* few css for sidebar button like border */
+.sidebar-btn {
+  background-color: #23232e;
+  border: 1px #4b4b6a solid;
+  border-radius: 15px;
+}
+/* getting svg + adjust size */
+.sidebarBtn-svg {
+  background: url("../../assets/navbar/sidebarBtn.svg");
+  width: 40px;
+  height: 40px;
+}
+
+/* getting cafeTech logo */
+.cafe-svg {
+  background: url("../../assets/navbar/Group.svg");
+  background-size: contain;
+  top: -3px;
+  right: -50px;
+  width: 45px;
+  height: 35px;
+}
+
+/* face on navbar account button */
+.nav-face {
+  background: url("../../assets/navbar/face.svg");
+  background-size: auto;
+  width: 19px;
+  height: 20px;
+}
+
+/* style to add for every div with bg-img */
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navs {
+  gap: max(5%, 3vw);
+  white-space: nowrap;
+}
+
+.inactive {
+  color: #8e8e93;
+}
