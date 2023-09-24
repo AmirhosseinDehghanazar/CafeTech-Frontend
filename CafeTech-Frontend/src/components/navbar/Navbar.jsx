@@ -34,6 +34,7 @@ const Navbar = ({ value, valueHandler }) => {
             {...link}
             value={value}
             valueHandler={valueHandler}
+            inactiveColor={"#8e8e93"}
           />
         ))}
       </div>
