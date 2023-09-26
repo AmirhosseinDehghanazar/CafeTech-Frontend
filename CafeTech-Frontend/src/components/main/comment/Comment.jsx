@@ -1,8 +1,26 @@
 import "./comment.css";
 import commentPicture from "../../../assets/comment/comment-pic.png";
 import Slider from "react-slick";
-
+import arrowright from "../../../assets/comment/arrow-left.svg";
 const Comment = () => {
+  const NextArrow = (props) => (
+    <div className="custom-next-arrow" onClick={props.onClick}>
+      <img src={arrowright} alt="" />
+    </div>
+  );
+
+  const PrevArrow = (props) => (
+    <div className="custom-prev-arrow" onClick={props.onClick}>
+      <img src={arrowright} alt="" />
+    </div>
+  );
+  const settings = {
+    autoplay: true,
+    // speed: 500,
+    autoplaySpeed: 3000,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
   const comments = [
     {
       id: 1,
@@ -43,6 +61,7 @@ const Comment = () => {
       {/* slide */}
       <div className="max-w-[992px] mx-auto">
         <Slider
+          {...settings}
           dots={window.innerWidth > 1024 ? false : true}
           className="text-center mx-7"
         >
