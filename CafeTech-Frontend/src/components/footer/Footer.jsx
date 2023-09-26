@@ -1,19 +1,18 @@
 import NavLink from "../navbar/NavLink";
 import { linksData } from "../navbar/linksData";
 import "./footer.css";
-
+import techSign from "../../assets/footer/techcafeSign.svg";
 const Footer = ({ value, valueHandler }) => {
   return (
     <div className="mb-10">
-      <div className="footer  flex flex-col md:flex-row md:items-center md:py-12 gap-4 -mx-6 md:mx-0 mb-12 bg-[#4276E3] p-8 lg:px-20 md:rounded-[25px] shadow-[#441EDE]">
+      <div className="footer  flex flex-col md:flex-row md:items-center md:py-12 gap-4 -mx-6 md:mx-0 mb-12  p-8 lg:px-20 md:rounded-[25px] shadow-[#441EDE]">
         {/* logo */}
         <div>
           <a
             href="/"
             className=" flex items-center lg:relative rela gap-2 lg:flex-row-reverse"
           >
-            <p className="font-bold text-2xl text-white/90">کافه تک</p>
-            <div className="cafe-svg lg:absolute" />
+            <img src={techSign} alt="techSign" />
           </a>
         </div>
         {/* navs */}
