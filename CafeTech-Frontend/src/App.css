@@ -45,8 +45,11 @@
 .animation-opacity {
   animation: opacity 0.7s both;
 }
-.animation-guest-slide {
-  animation: slideInfinit 25s linear infinite;
+.animation-slide-toleft {
+  animation: slideToLeft 60s linear infinite;
+}
+.animation-slide-toright {
+  animation: slideToRight 60s linear infinite;
 }
 @keyframes opacity {
   0% {
@@ -67,12 +70,21 @@
     transform: translateX(0);
   }
 }
-@keyframes slideInfinit {
+@keyframes slideToLeft {
   0% {
     transform: translateX(25%);
   }
 
   100% {
     transform: translateX(-10%);
+  }
+}
+@keyframes slideToRight {
+  0% {
+    transform: translateX(-9.8%);
+  }
+
+  100% {
+    transform: translateX(25%);
   }
 }
