@@ -5,3 +5,4 @@ export { default as Event } from "./main/event/Event";
 export { default as Header } from "./main/header/Header";
 export { default as Segment } from "./main/segment/Segment";
 export { default as Navbar } from "./navbar/Navbar";
+export { default as Guest } from "./main/guest/Guest";

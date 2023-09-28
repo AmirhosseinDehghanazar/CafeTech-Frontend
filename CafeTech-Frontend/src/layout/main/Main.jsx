@@ -4,6 +4,7 @@ import {
   Comment,
   Event,
   Footer,
+  Guest,
   Header,
   Navbar,
   Segment,
@@ -15,11 +16,13 @@ const Main = () => {
   const [navValue, setNavValue] = useState(0);
 
   // this useEffect have to manage start value of navValue
+  // const values = {
+  //   about: 2,
+  //   ...
+  // };
   useEffect(() => {
     // example
-    /* if( location === "about") {
-          setNavValue(2)
-    } */
+    // setNavValue(values[location])
   }, []);
 
   // func to handle sidebar gave it to sidebar btn
@@ -36,7 +39,7 @@ const Main = () => {
         <About />
         <Segment />
         <Event />
-        {/* <Guests /> */}
+        <Guest />
         <Comment />
         <Footer value={navValue} valueHandler={valueHandler} />
 
