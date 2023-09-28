@@ -54,27 +54,27 @@ export default {
     {
       name: "Robo Epics",
       job: " مسابقات هوش مصنوعی",
-      img: bigdeli,
+      img: robo,
     },
     {
       name: "c50x iran",
       job: "دوره برنامه نویسی هاروارد",
-      img: bigdeli,
+      img: cs50,
     },
     {
       name: "پلنت",
       job: "مرکز شتابدهی و نوآوری بیمه ای ",
-      img: bigdeli,
+      img: planet,
     },
     {
       name: "دیجی نکست",
       job: "مرکز سرمایه گذاری گروه دیجیکالا",
-      img: bigdeli,
+      img: digiNext,
     },
     {
       name: "پلتفرم مانی",
       job: "پلتفرم تبدیل متن به عکس",
-      img: bigdeli,
+      img: mani,
     },
   ],
 };
