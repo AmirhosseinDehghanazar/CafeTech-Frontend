@@ -20,7 +20,7 @@ const Navbar = ({ value, valueHandler }) => {
       {/* account */}
       <a
         href="#"
-        className=" hidden lg:flex items-center gap-3 bg-linear px-7 py-4 rounded-2xl"
+        className=" hidden lg:flex items-center gap-3 bg-linear px-7 py-4 rounded-2xl "
       >
         <div className="nav-face" />
         <p className="text-lg font-semibold">حساب کاربری</p>

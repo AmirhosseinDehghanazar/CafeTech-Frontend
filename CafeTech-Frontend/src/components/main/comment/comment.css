@@ -31,3 +31,35 @@
     background-size: contain;
   }
 }
+.custom-next-arrow {
+  /* background-size: contain; */
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid var(--box-strok, #4b4b6a);
+  background: var(--box, #23232e);
+  position: absolute;
+  top: 50%;
+  padding: 10px 15px;
+  width: 55px;
+  height: 51px;
+  right: -50px;
+  cursor: pointer;
+  z-index: 1;
+  transform: scaleX(-1);
+}
+
+.custom-prev-arrow {
+  background-size: contain;
+  align-content: center;
+  border-radius: 15px;
+  border: 1px solid var(--box-strok, #4b4b6a);
+  background: var(--box, #23232e);
+  position: absolute;
+  top: 50%;
+  padding: 10px 15px;
+  width: 55px;
+  height: 51px;
+  left: -50px;
+  cursor: pointer;
+  z-index: 1;
+}

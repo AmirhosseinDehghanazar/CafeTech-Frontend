@@ -1,3 +1,6 @@
 .footer {
-  box-shadow: 0 0 100px #441ede80;
+  box-shadow: 0 0 10px #3f2bde;
+  background: linear-gradient(to left, #3f2adf, #1e82de);
+  width: 1728px;
+  height: 180px;
 }
