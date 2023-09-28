@@ -45,12 +45,7 @@
 .animation-opacity {
   animation: opacity 0.7s both;
 }
-.animation-slide-toleft {
-  animation: slideToLeft 60s linear infinite;
-}
-.animation-slide-toright {
-  animation: slideToRight 60s linear infinite;
-}
+
 @keyframes opacity {
   0% {
     opacity: 0;
@@ -68,23 +63,5 @@
   }
   100% {
     transform: translateX(0);
-  }
-}
-@keyframes slideToLeft {
-  0% {
-    transform: translateX(25%);
-  }
-
-  100% {
-    transform: translateX(-10%);
-  }
-}
-@keyframes slideToRight {
-  0% {
-    transform: translateX(-9.8%);
-  }
-
-  100% {
-    transform: translateX(25%);
   }
 }
