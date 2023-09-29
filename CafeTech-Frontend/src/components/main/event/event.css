@@ -2,6 +2,7 @@
   background-color: #262b77;
   direction: rtl;
 }
+/* Handler Event */
 .event_eventdata {
   opacity: 1;
   position: absolute;
