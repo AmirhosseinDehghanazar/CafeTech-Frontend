@@ -1,3 +1,4 @@
+import React from "react";
 import { format } from "date-fns-jalali";
 import "./about.css";
 import { currentEvent } from "./currentEvent";

@@ -1,3 +1,4 @@
+import React from "react";
 import "./comment.css";
 import commentPicture from "../../../assets/comment/comment-pic.png";
 import Slider from "react-slick";

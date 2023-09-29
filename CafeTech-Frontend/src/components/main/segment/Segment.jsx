@@ -1,3 +1,4 @@
+import React from "react";
 import Slider from "react-slick";
 import { segmentData } from "./segData";
 import "./segment.css";

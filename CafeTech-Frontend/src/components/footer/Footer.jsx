@@ -1,3 +1,4 @@
+import React from "react";
 import NavLink from "../navbar/NavLink";
 import { linksData } from "../navbar/linksData";
 import "./footer.css";
