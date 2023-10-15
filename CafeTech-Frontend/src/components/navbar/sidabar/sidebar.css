@@ -1,0 +1,50 @@
+/* main css for sidebar */
+.primary-navigation {
+  background-color: #2c5ade;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3rem;
+  inset: 0 0 0 25%;
+  padding: 5.5rem 2rem 0 0;
+  position: fixed;
+  transition: all 0.2s;
+  z-index: 100;
+}
+
+/* arrow png inside sidebar */
+.arrow {
+  transition: all 0.2s;
+}
+
+/* these two manage sidebar to be open or close
+    and they manage by sidebar taggle */
+.sidebar-close {
+  transform: translateX(130%);
+}
+.sidebar-open {
+  transform: translateX(5%);
+}
+
+/* there is a dropdown inside sidebar */
+.dropdown-menu-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.24s;
+  min-width: 160px;
+}
+
+/* set size of sidebar in diff screen sizes */
+@media screen and (min-width: 600px) {
+  .primary-navigation {
+    inset: 0 0 0 35%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .primary-navigation {
+    inset: 0 0 0 50%;
+  }
+}
